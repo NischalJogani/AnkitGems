@@ -1,0 +1,263 @@
+body {
+    margin: 0px;
+    padding: 0% 1%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    background-image: url("../images/contact-us-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container-fluid.section1 {
+    height: 65vh;
+}
+
+.section1 {
+    position: relative;
+    background-image: url("../images/contact-us-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom 15%;
+}
+
+.cu-head {
+    margin-top: 38vh;
+}
+
+.cu-head-ribbon {
+    background-color: #CC561E;
+    width: 12vh;
+    height: 18vh;
+    background-color: #CC561E;
+    transform: skewX(35deg);
+    z-index: 1;
+}
+
+.cu-head-title {
+    font-size: 11vh;
+    color: #fff;
+    font-weight: 300;
+    margin-left: -8vh;
+    z-index: 2;
+    width: fit-content;
+}
+
+.cu-title {
+    font-size: 22vh;
+    color: #000;
+    line-height: 17.5vh;
+}
+
+.cu-title div {
+    border-bottom: 1.5vh solid #000;
+}
+
+.section2.col-10 {
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    width: 85%;
+    margin: 7% auto 1% auto;
+}
+
+.cu-flag {
+    width: 35%;
+    vertical-align: baseline;
+}
+
+.cu-stitle {
+    font-size: 5vh;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 4.5vh;
+    margin-top: 5vh;
+}
+
+.cu-text {
+    font-size: 3.1vh;
+    line-height: 4.5vh;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+}
+
+.cu-map-nav {
+    color: #121212;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 2.8vh;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.cu-icon {
+    font-size: 2.5vh;
+    vertical-align: 0.1vh;
+}
+
+.section3.col-10 {
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    width: 85%;
+    margin: 2% auto 1% auto;
+}
+
+.left-hr,
+.right-hr {
+    background-color: #e74c4c;
+    height: 2px;
+}
+
+.cu-heading {
+    font-size: 8.5vh;
+    color: #232323;
+}
+
+.cu-sheading {
+    font-size: 5vh;
+    font-weight: 600;
+    color: #121212;
+}
+
+.cu-htext {
+    font-size: 3.5vh;
+    color: #e74c4c;
+    font-weight: 600;
+}
+
+.cu-submit {
+    padding: 2vh 10vh;
+}
+
+.section4 {
+    background: #e8e8e8;
+}
+
+.form-control, .cu-text-area {
+    border-radius: 0%;
+    color: #000;
+    font-weight: 500;
+    padding: 0.9em 0.8em;
+    border: 0.5px solid #cad1d7;
+}
+
+.form-control::placeholder, .cu-text-area::placeholder {
+    font-weight: 300;
+    color: #000;
+}
+
+.form-control:focus, .cu-text-area:focus {
+    box-shadow: none;
+    border: 1px solid #000;
+    padding-left: 1.5em;
+    transition: padding-left 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.cu-text-area:focus-visible {
+    outline: none;
+}
+
+.cu-btn {
+    background-color: transparent;
+    font-size: 1em;
+    color: #000;
+    border-color: rgba(0, 0, 0, 0.2);
+    font-weight: 400;
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    margin-top: 1.75em;
+    padding: 0.5em 1.6em;
+}
+
+.cu-btn:hover {
+    background-color: transparent;
+    color: #000;
+    border-color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    font-size: 1.1em;
+    letter-spacing: 3.5px;
+    padding: 0.6em 1.35em 0.65em 1.6em;
+}
+
+.cu-text-area {
+    width: 100%;
+}
+
+.cu-s5-img {
+    width: 70%;
+}
+
+.cu-btn:focus {
+    box-shadow: none;
+}
+
+.cu-hr {
+    width: 35%;
+    border: 1.5px solid #e74c4c;
+    opacity: 100%;
+    background-color: #e74c4c;
+}
+
+.cu-mob-link {
+    width: 100%;
+}
+
+.txt-small {
+    font-size: 0.85em;
+}
+
+.text-red {
+    color: #e74c4c;
+}
+
+.hover-red:hover {
+    color: #dc3545;
+    cursor: pointer;
+}
+
+.text-dull {
+    color: #565656;
+}
+
+.text-hover-colorful:hover {
+    animation: rainbow 6s infinite;
+}
+
+
+@keyframes rainbow {
+    0% {
+        color: #31BFCE;
+    }
+
+    12.5% {
+        color: #3148CE;
+    }
+
+    25% {
+        color: #8F31CE;
+    }
+
+    37.5% {
+        color: #CE3197;
+    }
+
+    50% {
+        color: #CE4031;
+    }
+
+    62.5% {
+        color: #d59c2a;
+    }
+
+    75% {
+        color: #aed04f;
+    }
+
+    87.5% {
+        color: #2ba946;
+    }
+
+    100% {
+        color: #31BFCE;
+    }
+}
+

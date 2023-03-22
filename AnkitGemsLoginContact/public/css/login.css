@@ -1,0 +1,116 @@
+/* font-family: 'Sofia Sans Extra Condensed', sans-serif; */
+
+body {
+    margin: 0px;
+    padding: 1%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    background-image: url("../images/signup-bg1.jpeg");
+    background-size: cover;
+}
+
+.login-logo {
+    width: 2em;
+}
+
+.login-body {
+    padding-top: 0.3em;
+}
+
+.login-card {
+    padding: 2em 1.5em 1em;
+}
+
+.login-input {
+    margin-bottom: 1.8em;
+}
+
+.form-control {
+    border-radius: 0;
+    color: #000;
+    font-weight: 500;
+    padding: 0.9em 0.8em;
+}
+
+.form-control::placeholder {
+    font-weight: 300;
+    color: #000;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #000;
+    padding-left: 1.35em;
+    transition: padding-left 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.login-ext-row {
+    margin-left: 1px;
+}
+
+.form-check-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: none;
+
+}
+
+.form-check-input:checked {
+    background-color: #000;
+    border-color: #000;
+    border-radius: none;
+}
+
+.form-check-input:hover,
+.form-check-label:hover,
+.form-check:hover {
+    cursor: pointer !important;
+}
+
+.form-check-input:focus,
+.form-check-label:focus {
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.hover-red {
+    color: #000;
+}
+
+.hover-red:hover {
+    color: #dc3545;
+}
+
+.login-btn {
+    background-color: transparent;
+    font-size: 1em;
+    color: #000;
+    border-color: rgba(0, 0, 0, 0.2);
+    font-weight: 400;
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    margin-top: 1.75em;
+    padding: 0.5em 1.6em;
+}
+
+.login-btn:hover {
+    background-color: transparent;
+    font-size: 1em;
+    color: #000;
+    border-color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    font-size: 1.2em;
+    letter-spacing: 6px;
+    padding: 0.7em 1.55em 0.7em 1.8em;
+}
+
+.login-btn:focus {
+    box-shadow: none;
+}
+
+.txt-small {
+    font-size: 0.85em;
+}
